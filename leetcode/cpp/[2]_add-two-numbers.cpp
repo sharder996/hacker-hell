@@ -18,13 +18,13 @@
 class Solution {
 public:
   /*
-  Accepted
-  1568/1568 cases passed (20 ms)
-  Your runtime beats 92.15 % of cpp submissions
-  Your memory usage beats 13.05 % of cpp submissions (71.2 MB)
-
-  Time complexity : O(max(m,n))
-  Space complexity : O(max(m,n))
+  * Accepted
+  * 1568/1568 cases passed (20 ms)
+  * Your runtime beats 92.15 % of cpp submissions
+  * Your memory usage beats 13.05 % of cpp submissions (71.2 MB)
+  * 
+  * Time complexity : O(max(m,n))
+  * Space complexity : O(max(m,n))
   */
   ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     ListNode *l3 = NULL;

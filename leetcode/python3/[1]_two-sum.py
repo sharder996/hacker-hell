@@ -42,6 +42,5 @@ class Solution:
       d[nums[i]] = i
     
     return []
-        
 # @lc code=end
 

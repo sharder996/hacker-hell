@@ -41,6 +41,5 @@ class Solution:
       curr += 1
     
     return l3[0]
-        
 # @lc code=end
 
