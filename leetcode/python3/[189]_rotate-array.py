@@ -19,7 +19,7 @@ class Solution:
     """
     Do not return anything, modify nums in-place instead.
     """
-    def reverse(nums, start, end):
+    def reverse(nums, start: int, end: int):
       while start < end:
         nums[start], nums[end] = nums[end], nums[start]
         start += 1
@@ -31,6 +31,7 @@ class Solution:
       reverse(nums, 0, len(nums) - k - 1)
       reverse(nums, 0, len(nums) - 1)
   
+
   '''
   Time Limit Exceeded
   34/37 cases passed (N/A)
@@ -57,3 +58,4 @@ class Solution:
         nums[-1] = temp
     print(nums)
 # @lc code=end
+

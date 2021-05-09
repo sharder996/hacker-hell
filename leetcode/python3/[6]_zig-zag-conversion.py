@@ -36,3 +36,4 @@ class Solution:
     
     return ''.join([''.join(c) for row in rows for c in row])
 # @lc code=end
+

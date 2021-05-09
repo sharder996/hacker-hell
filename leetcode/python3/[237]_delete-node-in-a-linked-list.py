@@ -10,7 +10,6 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-
 class Solution:
   '''
   Accepted
@@ -34,3 +33,4 @@ class Solution:
       else:
         curr = curr.next
 # @lc code=end
+
