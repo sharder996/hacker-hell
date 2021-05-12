@@ -6,11 +6,11 @@
 
 # @lc code=start
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
   '''
   Accepted
@@ -21,15 +21,15 @@ class Solution:
   Time complexity : O(n)
   Space complexity : O(n)
   '''
-  # def inorderTraversal(self, root: TreeNode) -> List[int]:
-  #   if root is None:
-  #     return []
+  def inorderTraversal(self, root: TreeNode) -> List[int]:
+    if root is None:
+      return []
     
-  #   retval = []
-  #   retval += self.inorderTraversal(root.left)
-  #   retval.append(root.val)
-  #   retval += self.inorderTraversal(root.right)
-  #   return retval
+    retval = []
+    retval += self.inorderTraversal(root.left)
+    retval.append(root.val)
+    retval += self.inorderTraversal(root.right)
+    return retval
   
 
   '''
