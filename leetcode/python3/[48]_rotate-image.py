@@ -12,7 +12,7 @@ class Solution:
   Your runtime beats 56.32 % of python3 submissions
   Your memory usage beats 28.08 % of python3 submissions (14.4 MB)
 
-  Time complexity : O(n)
+  Time complexity : O(n^2)
   Space complexity : O(1)
   '''
   def rotate(self, matrix: List[List[int]]) -> None:
