@@ -21,11 +21,9 @@ class LRUCache:
 
   Insertion:
   Time complexity : O(1)
-  Space complexity : O(1)
   
   Retrieval:
   Time complexity : O(1)
-  Space complexity : O(1)
   '''
   def __init__(self, capacity: int):
     self.cache = dict()
