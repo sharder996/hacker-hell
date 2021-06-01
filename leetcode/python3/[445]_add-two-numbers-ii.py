@@ -17,8 +17,8 @@ class Solution:
   Your runtime beats 99.55 % of python3 submissions
   Your memory usage beats 12.96 % of python3 submissions (14.4 MB)
 
-  Time complexity : O(n)
-  Space complexity : O(n)
+  Time complexity : O(max(m, n))
+  Space complexity : O(max(m, n))
   '''
   def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
     num1, num2 = [], []
