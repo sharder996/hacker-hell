@@ -6,7 +6,7 @@
 
 # @lc code=start
 class TrieNode:
-  def __init__(self, val, next):
+  def __init__(self, val: set, next):
     self.val = val
     self.next = next
     self.terminal = False

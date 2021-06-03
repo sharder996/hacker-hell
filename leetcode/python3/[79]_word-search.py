@@ -11,6 +11,9 @@ class Solution:
   50/50 cases passed (4792 ms)
   Your runtime beats 34.05 % of python3 submissions
   Your memory usage beats 42.02 % of python3 submissions (14.4 MB)
+
+  Time complexity : O((m * n)^2)
+  Space complexity : O(m * n)
   '''
   def exist(self, board: List[List[str]], word: str) -> bool:
     if len(word) > len(board) * len(board[0]):
@@ -23,7 +26,7 @@ class Solution:
             return True
     
   
-  def dfs(self, board, word: str, row: int, col: int, char: int, visited: List[List[bool]]):
+  def dfs(self, board: List[List[str]], word: str, row: int, col: int, char: int, visited: List[List[bool]]):
     if char == len(word):
       return True
     
